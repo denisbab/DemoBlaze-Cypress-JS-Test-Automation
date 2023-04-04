@@ -5,6 +5,7 @@ module.exports = defineConfig({
   requestTimeout: 15000,
   responseTimeout: 15000,
   reporter: 'cypress-mochawesome-reporter',
+  video: false,
 
   e2e: {
     baseUrl: 'https://www.demoblaze.com',
