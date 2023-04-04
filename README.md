@@ -32,3 +32,8 @@ It's already installed in a project.
 After earch "npx cypress run" command an updated report will be created in a folder cypress/reports/html
 
 Example test report is located in folder: cypress/reports/html/index.html
+
+### Runs in Github Actions
+
+I have maintained this framework through GitHub Actions as a component of the CI/CD pipeline. The runs for this are located on the Actions tab
+Following each push commit, a run will initiate.
