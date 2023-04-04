@@ -1,5 +1,5 @@
 import SignUp from '../pages/SignUpModal';
-// PageObjectAdding
+// Page Object Adding
 const signUp = new SignUp();
 
 describe('Sign Up', () => {
