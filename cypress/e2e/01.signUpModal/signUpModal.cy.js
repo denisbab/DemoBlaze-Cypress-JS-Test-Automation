@@ -5,7 +5,7 @@ const signUp = new SignUp();
 describe('Sign Up', () => {
   let credentials;
   beforeEach('Go to the main page', () => {
-    // Load credentials
+    // Load credential
     cy.fixture('credentials.json').then((cred) => {
       credentials = cred;
     });
